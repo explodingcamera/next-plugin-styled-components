@@ -1,6 +1,6 @@
 {
   "name": "example",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": true,
   "repository": "https://github.com/explodingcamera/next-plugin-styled-components",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@explodingcamera/next-plugin-styled-components": "^1.0.2",
+    "@explodingcamera/next-plugin-styled-components": "^1.0.3",
     "next": "9.2.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
