@@ -1,0 +1,30 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/explodingcamera/next-plugin-styled-components",
+  "author": "Henry Gressmann <mail@henrygressmann.de> (https://henrygressmann.de)",
+  "license": "MIT",
+  "nextjs": {
+    "name": "styled-components",
+    "required-env": []
+  },
+  "dependencies": {
+    "@explodingcamera/next-plugin-styled-components": "1.0.0",
+    "next": "9.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "5.0.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "workspaces": {
+    "nohoist": [
+      "@explodingcamera/next-plugin-styled-components",
+      "next"
+    ]
+  }
+}
