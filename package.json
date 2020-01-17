@@ -2,7 +2,11 @@
   "name": "@explodingcamera/next-plugin-styled-components-root",
   "version": "1.0.0",
   "private": true,
-  "repository": "https://github.com/explodingcamera/next-plugin-styled-components",
+  "homepage": "https://github.com/explodingcamera/next-plugin-styled-components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/explodingcamera/next-plugin-styled-components.git"
+  },
   "license": "MIT",
   "author": "Henry Gressmann <mail@henrygressmann.de> (https://henrygressmann.de)",
   "workspaces": {
@@ -12,7 +16,7 @@
     ]
   },
   "scripts": {
-    "bump-version": "lerna version --github-release --conventional-commits"
+    "bump-version": "lerna publish --create-release=github --conventional-commits"
   },
   "devDependencies": {
     "@explodingcamera/eslint-config": "1.1.1",

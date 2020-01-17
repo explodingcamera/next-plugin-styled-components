@@ -1,7 +1,11 @@
 {
   "name": "@explodingcamera/next-plugin-styled-components",
   "version": "1.0.0",
-  "repository": "https://github.com/explodingcamera/next-plugin-styled-components",
+  "homepage": "https://github.com/explodingcamera/next-plugin-styled-components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/explodingcamera/next-plugin-styled-components.git"
+  },
   "license": "MIT",
   "author": "Henry Gressmann <mail@henrygressmann.de> (https://henrygressmann.de)",
   "peerDependencies": {
