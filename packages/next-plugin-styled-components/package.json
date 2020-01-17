@@ -9,9 +9,11 @@
   "license": "MIT",
   "author": "Henry Gressmann <mail@henrygressmann.de> (https://henrygressmann.de)",
   "peerDependencies": {
-    "babel-plugin-styled-components": "*",
     "next": "*",
     "styled-components": "*"
+  },
+  "dependencies": {
+    "babel-plugin-styled-components": "1.10.x"
   },
   "nextjs": {
     "name": "styled-components",
