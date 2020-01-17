@@ -44,7 +44,7 @@ This package is based on experimental next.js features, so it might stop working
 
   
 
-While next.js doesn't recommend to already create plugins, I created this because this project's scope is't that large & I use it in production and thus will update it to work with new next.js versions.
+While next.js doesn't recommend to already create plugins, I created this because this project's scope isn't that large & I use it in production and thus will update it to work with new next.js versions.
 
   
 
