@@ -18,6 +18,5 @@
   "nextjs": {
     "name": "styled-components",
     "required-env": []
-  },
-  "type": "module"
+  }
 }
