@@ -13,7 +13,7 @@
     "styled-components": "*"
   },
   "dependencies": {
-    "babel-plugin-styled-components": "1.10.x"
+    "babel-plugin-styled-components": "1.10.7"
   },
   "nextjs": {
     "name": "styled-components",
