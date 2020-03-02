@@ -1,5 +1,4 @@
-module.exports = {
-  experimental: {
-    plugins: true,
-  }
-}
+const pluginStyledComponents = require('@explodingcamera/next-plugin-styled-components');
+
+const nextConfig = {};
+module.exports = pluginStyledComponents(nextConfig);

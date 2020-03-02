@@ -1,8 +1,21 @@
-const React = require('react')
-const { ServerStyleSheet } = require('styled-components')
+const React = require('react');
+const { ServerStyleSheet, createGlobalStyle } = require('styled-components');
 
-module.exports = async function enhanceApp(ctx) {
-  
-  ctx.sheets = new ServerStyleSheet()
-  return App => props => ctx.sheets.collectStyles(<App {...props} />)
+const Global = createGlobalStyle`
+  body {
+    display: block; /* fixes next.js development mode blinking issue */
+  }
+`;
+
+async function enhanceApp(ctx) {
+	ctx.sheets = new ServerStyleSheet();
+	return App => props =>
+		ctx.sheets.collectStyles(
+			<>
+				<Global />
+				<App {...props} />
+			</>,
+		);
 }
+
+module.exports = enhanceApp;

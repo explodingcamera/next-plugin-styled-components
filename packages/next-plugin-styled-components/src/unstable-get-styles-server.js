@@ -1,8 +1,10 @@
-module.exports = async function getStyles(ctx) {
-  const styleElement = ctx.sheets.getStyleElement()
+async function getStyles(ctx) {
+	const styleElement = ctx.sheets.getStyleElement();
 
-  // Seal the stylesheet to prevent memory leaks
-  ctx.sheets.seal();
+	// Seal the stylesheet to prevent memory leaks
+	ctx.sheets.seal();
 
-  return styleElement
+	return styleElement;
 }
+
+module.exports = getStyles;

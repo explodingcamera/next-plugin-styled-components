@@ -15,7 +15,7 @@
 
 | Package Version | Next.JS Version |
 |-----------------|-----------------|
-| `1.1.x` | `9.2.x` |
+| `1.2.x` | `9.2.x` |
 
   
 
@@ -27,32 +27,12 @@
 2. Enable experimental plugin support in your next.config.js
 	`next.config.js`
 	```js
-	module.exports  = {
-		experimental: {
-			plugins:  true,
-		}
-	}
-	```
+	const nextPluginSC = require('@explodingcamera/next-plugin-styled-components');
 
-3. Update or create your `.babelrc` config
-	```json
-	{
-		"presets":[
-			"next/babel"
-		],
-		"plugins":[
-			[
-				"styled-components",
-				{
-					"ssr": true,
-					"displayName": true,
-					"pure": true
-				}
-			]
-		]
-	}
+	module.exports  = nextPluginSC({
+		// your next.js config
+	})
 	```
-	(This will hopefully be automated in the future when the next.js plugin api is more mature, afaik injecting a custom babel plugin doesn't seem to work at the moment)
 
 [Theres also an example available](packages/example).
 
@@ -64,8 +44,8 @@ This package is based on experimental next.js features, so it might stop working
 
   
 
-While next.js doesn't recommend to already create plugins, I created this because this project's scope isn't that large & I use it in production and thus will update it to work with new next.js versions.
+While next.js doesn't recommend to already create plugins, I created this because this project's scope isn't that large & I use it in production for multiple projects and thus will update it to work with new next.js versions.
 
   
 
-When using Yarn Workspaces, Lerna or similar, make sure next.js and this plugin are in the same node_modules directory by using the `nohoist` in said tool.
+When using Yarn Workspaces, Lerna or similar, make sure next.js and this plugin are in the same `node_modules` directory by using the `nohoist` option or the equivalent in said tool.
