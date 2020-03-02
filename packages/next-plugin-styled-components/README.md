@@ -24,7 +24,7 @@
 1. Install the package
 	`$ npm install @explodingcamera/next-plugin-styled-components styled-components`
 
-2. Enable experimental plugin support in your next.config.js
+2. Enable the plugin in your next.config.js
 	`next.config.js`
 	```js
 	const nextPluginSC = require('@explodingcamera/next-plugin-styled-components');
