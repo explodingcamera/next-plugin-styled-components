@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@explodingcamera/next-plugin-styled-components": "^1.2.0",
-    "next": "9.2.3-canary.22",
+    "next": "9.2.3-canary.26",
     "react": "16.13.0",
     "react-dom": "16.13.0",
     "styled-components": "5.0.1"
