@@ -18,9 +18,9 @@
   },
   "dependencies": {
     "@explodingcamera/next-plugin-styled-components": "^1.2.1",
-    "next": "9.2.3-canary.26",
-    "react": "16.13.0",
-    "react-dom": "16.13.0",
+    "next": "9.3.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "styled-components": "5.0.1"
   },
   "nextjs": {
@@ -28,6 +28,6 @@
     "required-env": []
   },
   "devDependencies": {
-    "@explodingcamera/eslint-config": "3.1.0"
+    "@explodingcamera/eslint-config": "3.2.0"
   }
 }

@@ -16,7 +16,7 @@
 | Package Version | Next.JS Version |
 |-----------------|-----------------|
 | `1.2.x` | `9.2.x` |
-
+| `1.3.x` | `9.3.x` |
   
 
 ## Installation

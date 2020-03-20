@@ -11,10 +11,10 @@ async function enhanceApp(ctx) {
 	ctx.sheets = new ServerStyleSheet();
 	return App => props =>
 		ctx.sheets.collectStyles(
-			<>
+			<React.Fragment>
 				<Global />
 				<App {...props} />
-			</>,
+			</React.Fragment>,
 		);
 }
 
