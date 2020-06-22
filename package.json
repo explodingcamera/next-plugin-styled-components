@@ -20,8 +20,8 @@
     "bump-version": "lerna publish --create-release=github --conventional-commits"
   },
   "devDependencies": {
-    "@explodingcamera/eslint-config": "8.1.0",
-    "eslint": "7.2.0",
+    "@explodingcamera/eslint-config": "9.0.0",
+    "eslint": "7.3.0",
     "lerna": "3.22.1"
   }
 }
