@@ -17,6 +17,7 @@
 |-----------------|-----------------|
 | `1.2.x` | `9.2.x` |
 | `1.3.x` | `9.3.x` & `9.4.x` |
+| `2.0.x` | `9.5.x` |
   
 
 ## Installation
@@ -36,9 +37,30 @@
 
 [Theres also an example available](packages/example).
 
-  
 
 ## Caveats
+
+### Custom `_document.js`
+
+If you are using a custom `_document.js`, you will need to include a small snipped in you render function (full [example](packages/example):
+
+```js
+export default class MyDocument extends Document {
+	render() {
+		return (
+			<html>
+				<Head>{this.props.headTags}</Head> {/* this line needs to be added */}
+				<body>
+					<Main />
+					<NextScript />
+				</body>
+			</html>
+		);
+	}
+}
+```
+
+### Compatibility
 
 This package is based on experimental next.js features, so it might stop working unexpectedly on newer next.js versions. Please report any issues here.
 
