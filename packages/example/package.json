@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@explodingcamera/next-plugin-styled-components": "^2.0.0",
-    "next": "9.5.3",
+    "next": "9.5.4",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "styled-components": "5.2.0"
