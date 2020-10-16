@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@explodingcamera/eslint-config": "10.0.0",
-    "eslint": "7.9.0",
+    "eslint": "7.11.0",
     "lerna": "3.22.1"
   }
 }
