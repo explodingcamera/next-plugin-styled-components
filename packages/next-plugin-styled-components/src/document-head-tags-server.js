@@ -7,7 +7,7 @@ const Global = createGlobalStyle`
   }
 `;
 
-async function headTags(ctx) {
+export default async function headTags(ctx) {
 	ctx.sheet = new ServerStyleSheet();
 	const originalRenderPage = ctx.renderPage;
 
@@ -27,5 +27,3 @@ async function headTags(ctx) {
 		ctx.sheet.seal();
 	}
 }
-
-module.exports = headTags;
