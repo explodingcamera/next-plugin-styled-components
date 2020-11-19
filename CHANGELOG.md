@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.2](https://github.com/explodingcamera/next-plugin-styled-components/compare/v2.1.0...v10.0.2) (2020-11-19)
+
+
+### Bug Fixes
+
+* ensure compatibility with latest nextjs version ([ffe9108](https://github.com/explodingcamera/next-plugin-styled-components/commit/ffe910824eb50ba46e2656cd634a45dd919db343))
+
+
+
+
+
+## [10.0.2](https://github.com/explodingcamera/next-plugin-styled-components/compare/v2.1.0...v10.0.2) (2020-11-19)
+
+
+### Bug Fixes
+
+* ensure compatibility with latest nextjs version ([ffe9108](https://github.com/explodingcamera/next-plugin-styled-components/commit/ffe910824eb50ba46e2656cd634a45dd919db343))
+
+
+
+
+
 # [2.1.0](https://github.com/explodingcamera/next-plugin-styled-components/compare/v2.0.0...v2.1.0) (2020-11-17)
 
 
