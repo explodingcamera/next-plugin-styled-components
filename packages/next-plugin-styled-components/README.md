@@ -11,6 +11,9 @@
 | `2.0.x`         | `9.5.x`           |
 | `2.0.x`         | `10.0.0`          |
 | `2.1.x`         | `10.0.1`          |
+| `10.0.2`        | `10.0.2`          |
+
+All later versions follow next.js's versioning, so eg. `10.0.2` is compatible with nextjs >= `10.0.2`
 
 ## Installation
 
