@@ -1,6 +1,6 @@
 {
   "name": "@explodingcamera/next-plugin-styled-components-root",
-  "version": "10.0.3",
+  "version": "10.0.5",
   "private": true,
   "main": "index.js",
   "homepage": "https://github.com/explodingcamera/next-plugin-styled-components",
