@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [10.0.9](https://github.com/explodingcamera/next-plugin-styled-components/compare/v10.0.6...v10.0.9) (2021-03-17)
+
+**Note:** Version bump only for package @explodingcamera/next-plugin-styled-components
+
+
+
+
+
 ## [10.0.6](https://github.com/explodingcamera/next-plugin-styled-components/compare/v10.0.5...v10.0.6) (2021-01-29)
 
 **Note:** Version bump only for package @explodingcamera/next-plugin-styled-components
