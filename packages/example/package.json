@@ -1,6 +1,6 @@
 {
   "name": "example",
-  "version": "10.0.9",
+  "version": "10.2.0",
   "private": true,
   "repository": "https://github.com/explodingcamera/next-plugin-styled-components",
   "license": "MIT",
@@ -11,17 +11,17 @@
     "start": "next start"
   },
   "dependencies": {
-    "@explodingcamera/next-plugin-styled-components": "^10.0.9",
-    "next": "10.0.9",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "styled-components": "5.2.1"
+    "@explodingcamera/next-plugin-styled-components": "^10.2.0",
+    "next": "11.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "styled-components": "5.3.1"
   },
   "nextjs": {
     "name": "styled-components",
     "required-env": []
   },
   "devDependencies": {
-    "@explodingcamera/eslint-config": "15.1.0"
+    "@explodingcamera/eslint-config": "17.0.0"
   }
 }

@@ -1,7 +1,11 @@
 # @explodingcamera/next-plugin-styled-components
 
-`@explodingcamera/next-plugin-styled-components` makes it possible to use `styled-components` in next.js without any special configuration, HMR included.
+`@explodingcamera/next-plugin-styled-components` made it possible to use `styled-components` in next.js without any special configuration, HMR included.
 
+Due to the removal of propper plugin support, this isn't possible with next.js anymore.
+Please check out their example for how to manually configure styled-components support [here](https://github.com/vercel/next.js/blob/canary/examples/with-styled-components/pages/_document.js).
+
+<!--
 ## Compatibility Matrix
 
 | Package Version | Next.JS Version   |
@@ -62,4 +66,4 @@ This package is based on experimental next.js features, so it might stop working
 
 While next.js doesn't recommend to already create plugins, I created this because this project's scope isn't that large & I use it in production for multiple projects and thus will update it to work with new next.js versions.
 
-When using Yarn Workspaces, Lerna or similar, make sure next.js and this plugin are in the same `node_modules` directory by using the `nohoist` option or the equivalent in said tool.
+When using Yarn Workspaces, Lerna or similar, make sure next.js and this plugin are in the same `node_modules` directory by using the `nohoist` option or the equivalent in said tool. -->
